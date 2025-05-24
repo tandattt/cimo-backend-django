@@ -1,0 +1,3 @@
+from .so_parents_serializer import SoParentsSerializer
+from .so_checkins_serializer import SoCheckinsSerializer
+from .so_student_parents_serializer import SoStudentParentsSerializer

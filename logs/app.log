@@ -1,0 +1,1 @@
+[2025-05-24 00:25:16] [log] Gọi hàm post_timetable | user_id: 0528f891-f4d7-11ef-bf88-0242ac150002 | path: /Users/timetable/ | method: POST | data: {'subject_name': 'Hóa', 'teacher_id': '392fa92f-3361-47c8-9fda-a1de384a6e33', 'class_id': '408da29e-db49-41db-8b44-beec96203cad', 'date': '2025-03-24', 'start_time': '10:50:00'}
