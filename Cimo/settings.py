@@ -106,9 +106,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'cimo',  # Tên database MySQL
-        'USER': 'tandat1812',  # Tên user MySQL (thay đổi nếu cần)
-        'PASSWORD': 'tandat1812',  # Mật khẩu MySQL
-        'HOST': 's103d190-u2.interdata.vn',  # Hoặc 'localhost' nếu chạy cục bộ
+        'USER': os.getenv('user_db'),  # Tên user MySQL (thay đổi nếu cần)
+        'PASSWORD': os.getenv('password_db'),  # Mật khẩu MySQL
+        'HOST': os.getenv('HOST_db') ,  # Hoặc 'localhost' nếu chạy cục bộ
         'PORT': '3306',  # Cổng mặc định của MySQL
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
